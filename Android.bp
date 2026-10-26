@@ -5,6 +5,10 @@
 //
 
 soong_namespace {
+    imports: [
+        "hardware/google/pixel/power-libperfmgr",
+        "hardware/google/pixel/pixelstats",
+    ],
 }
 
 prebuilt_hidl_interfaces {

@@ -329,6 +329,8 @@ PRODUCT_SOONG_NAMESPACES += \
     hardware/mediatek \
     hardware/xiaomi \
     hardware/google/pixel \
+    hardware/google/pixel/power-libperfmgr \
+    hardware/google/pixel/pixelstats \
     hardware/google/interfaces \
     hardware/lineage/interfaces/power-libperfmgr \
     hardware/lineage/compat \
