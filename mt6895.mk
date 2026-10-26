@@ -366,5 +366,12 @@ PRODUCT_PACKAGES += \
 PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/configs/thermal/thermal_info_config.json:$(TARGET_COPY_OUT_VENDOR)/etc/thermal_info_config.json
 
+# Missing vendor libs (power/thermal HAL deps)
+PRODUCT_PACKAGES += \
+    libperfmgr \
+    pixelatoms-cpp \
+    vendor_lib64_libformatter_so \
+    vendor_lib_libformatter_so
+
 # Inherit the proprietary files
 $(call inherit-product, vendor/xiaomi/mt6895-common/mt6895-common-vendor.mk)
